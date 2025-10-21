@@ -2,7 +2,7 @@ function About() {
 
   return (
     <>
-
+      About
     </>
   )
 }

@@ -2,7 +2,7 @@ function Home() {
 
   return (
     <>
-
+      Home
     </>
   )
 }

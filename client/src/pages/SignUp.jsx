@@ -2,7 +2,7 @@ function SignUp() {
 
   return (
     <>
-
+      SignUp
     </>
   )
 }
