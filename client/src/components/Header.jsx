@@ -19,7 +19,7 @@ export default function Header() {
           </Link>
           <Link to='/profile'>
             {currentUser ? (
-              <li>{currentUser.username}</li>
+              <img className='w-7 h-7 rounded-full' src={currentUser.profilePicture} alt={`Image of ${currentUser.username}`}/>
             ) : (
               <li>Sign In</li>
             )}
